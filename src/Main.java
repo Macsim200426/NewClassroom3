@@ -11,12 +11,12 @@ public class Main {
 
         List<Student> students = new ArrayList<>();
         students.add(new Student("Virginia Hill","women", LocalDate.of(2006,8,5),"France","Hello","Advanced"));
-        students.add(new Student("Jiang Chen","men",LocalDate.of(2006,7,4),"China","您好","Intermediate"));
+        students.add(new Student("Jiang Chen","men",LocalDate.of(2007,7,4),"China","您好","Intermediate"));
         students.add(new Student("Aramaki Mitsuyuki","men",LocalDate.of(2006,1,8),"Japan","konichiwa","Intermediate"));
         students.add(new Student("Chloe Ferrer","women",LocalDate.of(2006,12,20),"Spain","¡Hola","Beginner"));
-        students.add(new Student("Johan Anderson","men",LocalDate.of(2006,6,3),"Africa","Jambo","Advanced"));
+        students.add(new Student("Johan Anderson","men",LocalDate.of(2005,6,3),"Africa","Jambo","Advanced"));
         students.add(new Student("Frank Abel","men",LocalDate.of(2006,11,13),"Germany","Gruess dich","Beginner"));
-        students.add(new Student("Josef Huber","men",LocalDate.of(2006,4,7),"Austria","Servus ","Intermediate"));
+        students.add(new Student("Josef Huber","men",LocalDate.of(2004,4,7),"Austria","Servus ","Intermediate"));
         students.add(new Student("Amanda Williams","women",LocalDate.of(2006,10,27),"Australia","G’day ","Advanced"));
 
         ArrayList<String> Advanced = new ArrayList<String>();
