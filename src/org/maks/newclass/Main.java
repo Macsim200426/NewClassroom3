@@ -66,7 +66,7 @@ public class Main {
 
         public int compare(Student a, Student b){
 
-            return a.getName().toUpperCase().compareTo(b.getName().toUpperCase());
+            return a.getName().compareTo(b.getName());
         }
     }
 
