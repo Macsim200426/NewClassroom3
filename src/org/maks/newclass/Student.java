@@ -1,16 +1,18 @@
 package org.maks.newclass;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Student {
     private String name;
     private String surname;
-    private String gender;
+    private Gender gender;
     private LocalDate dateOfBirth;
     private String country;
     private String welcome;
-    private String levelEnglish;
-
+    private LevelEnglish levelEnglish;
+    private String[] languages; //Создаем массив строк для множества языков студента
     public String getName() {
         return name;
     }
@@ -18,7 +20,7 @@ public class Student {
         return surname;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
@@ -34,11 +36,12 @@ public class Student {
         return welcome;
     }
 
-    public String getLevelEnglish() {
+    public LevelEnglish getLevelEnglish() {
         return levelEnglish;
     }
+    public String[] getLanguages() { return languages; }//Геттер для множества языков студента
 
-    Student(String name,String surname, String gender, LocalDate dateOfBirth, String country, String welcome, String levelEnglish) {
+    Student(String name, String surname, Gender gender, LocalDate dateOfBirth, String country, String welcome, LevelEnglish levelEnglish, String[] languages) {
         this.name = name;
         this.surname = surname;
         this.gender = gender;
@@ -46,5 +49,6 @@ public class Student {
         this.country = country;
         this.welcome = welcome;
         this.levelEnglish = levelEnglish;
+        this.languages = languages;
     }
 }
